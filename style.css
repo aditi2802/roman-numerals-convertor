@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+:root{
+    --red-color: #DC0404;
+}
+body{
+    margin: 0rem;
+    font-family: 'Courgette', cursive;
+    
+}
+.header {
+    text-align: left;
+    background-image: linear-gradient(to right,black,var(--red-color));
+    color: white;
+    padding: 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px white;
+  }
+  .neon {
+    color: var(--red-color);
+    text-shadow: 0 0 5px white, 0 0 10px white,
+             0 0 20px white, 0 0 30px white,
+             0 0 40px white;
+}
+.container{
+    padding: 0rem 1rem;
+}
+.container-center{
+    max-width: 600px;
+    margin: auto;
+    padding: 1rem;
+}
+textarea {
+    height: 10vh;
+    width: 90%;
+    margin: 1rem;
+    padding: 1rem 1rem;
+    border: solid;
+    border-radius: 1rem;
+    border-color:darkred;
+    font-size: 1.3rem;
+    font-family: 'Courgette', cursive;
+    text-align: center;
+}
+#btn-convert{
+    padding: 1rem;
+    border-radius: 1rem;
+    font-size: 1rem;
+    color: white;
+    background-color: black;
+    text-align: center;
+    display: block;
+    margin: auto;
+    border: 2px solid black;
+}
+#btn-convert:active {
+    background-color: darkred;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+h1{
+    text-align: center;
+    padding-top: 1rem;
+    color: black
+}
+#output {
+    height: 10vh;
+    width: 90%;
+    margin: 1rem;
+    padding: 1rem 1rem;
+    border: solid;
+    border-radius: 1rem;
+    font-size: 1.3rem;
+    text-align: center;
+    border-color: darkred;
+
+}
+section{
+    padding: 1rem;
+}
+.footer{
+    background-color: black;
+    text-align: center;
+    padding: 0.4rem 1rem
+    
+}
+.footer .footer-header{
+    font-size: large;
+    color: white;
+}
